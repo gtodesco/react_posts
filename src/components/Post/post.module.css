@@ -1,0 +1,75 @@
+.back {
+    border: none;
+    background-color: transparent;
+    border-radius: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    height: 25px;
+    color: #1f70bd;
+}
+
+.back:hover {
+    cursor: pointer;
+}
+
+.title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.comments {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.comments article {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid #d2e221;
+}
+
+.inputs {
+    display: flex;
+    margin: 20px;
+}
+
+.inputs input {
+    width: 100%;
+    margin: 5px;
+    height: 20px;
+    border-radius: 20px;
+    border: 1px solid #1f70bd;
+    padding: 10px;
+}
+
+.inputs textarea {
+    width: 100%;
+    margin: 5px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid #1f70bd;
+    padding: 10px;
+}
+
+.inputs button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #fd8484;
+}
+  
+.inputs button:hover {
+    cursor: pointer;
+    color: #fd8484;
+    background-color: #414141;
+}

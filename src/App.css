@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  color: #414141;
+}
+
+.App h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grid-posts {
+  display: grid;
+  padding: 10px;
+  overflow: hidden;
+  gap: 30px 15px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.post {
+  background-color: #e4e4e4;
+  border-radius: 10px;
+  box-shadow: 3px 5px 5px #cccccc;
+}
+
+.post h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+.actions {
+  height: 50px;
+}
+
+.actions button {
+  height: 70%;
+  width: 50%;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: #fd8484;
+}
+
+.actions button:hover {
+  cursor: pointer;
+  color: #fd8484;
+  background-color: #414141;
+}
+
+@media(max-width: 1000px) {
+  .grid-posts {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media(max-width: 700px) {
+  .grid-posts {
+    grid-template-columns: 100%;
+  }
+}
