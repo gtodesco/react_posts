@@ -1,3 +1,9 @@
+Techs:
+- React
+- Recoil (state management)
+- React Router
+- Jest
+
 In the project directory, you can run:
 
 ### `npm start`
